@@ -1,0 +1,46 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 84.9vh;
+}
+
+.containerImg {
+    width: 300px;
+}
+
+.imagen {
+    background-color: purple;
+    border: 3px solid rgb(111, 105, 105);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.imagen:hover{
+    transform: scale(1.06) rotate(-5deg);
+    transition: transform .5s;
+}
+
+.h1 {
+    color: white;
+    width: 310px;
+    border-bottom: 3px solid rgb(137, 127, 127);
+    margin-left:190px;
+    margin-top: 5px;
+}
+
+.p {
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.439);
+    font-size: 18px;
+    width: 680px;
+    transition: background-color .5s, color .5s;
+}
+.p:hover{
+    background-color: rgba(0, 0, 0, 0.546);
+    color: white;
+    transition: background-color .5s, color .5s;
+}

@@ -1,0 +1,44 @@
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    max-width: 1120px;
+}
+
+.selector {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid rgb(104, 104, 104);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: border-bottom .5s, border-radius .5s;
+}
+
+.selector:focus {
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid white;
+    transition: border-bottom .5s, border-radius .5s;
+}
+
+.opciones {
+    background: #062346;
+    color: white;
+}
+
+.reset {
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    border-bottom: 1px solid rgb(100, 96, 96);
+    border-radius: 5px;
+    padding: 4px;
+}
+.reset:active{
+    border-bottom: 1px solid white;
+    transition: border-raius .5s;
+}
