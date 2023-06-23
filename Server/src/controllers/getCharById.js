@@ -20,7 +20,7 @@ const getCharById = async (req, res) => {
       };
       return res.status(200).json(character);
     } else {
-      return res.status(400).send("No se encontrooooo");
+      return res.status(400).send("Not Found");
     }
   } catch (error) {
     res.status(500).send({ message: error.message });
