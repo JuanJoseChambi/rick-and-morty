@@ -5,9 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  background-position: center;
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2020/05/04/rick-and-morty-minimal-night-wallpaper.jpg");
+  background-position: center bottom;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
 
 
