@@ -31,13 +31,8 @@ export default function Form(props) {
 
     return (
         <div className={style.login}>
-            <div className={style.imgContent}>
-                <img className={style.imgLogin} src="https://2.bp.blogspot.com/-DbdQA7PZXz8/XdSQR_0L51I/AAAAAAAAb8Q/GJxyWu3K9i4G15o2epgr5ILCAkqD5EJDQCLcBGAsYHQ/s640-rw/864x1536.png" alt="Rick and Morty" />
-            </div>
+            <img className={style.imgLogo} src="https://hbomax-images.warnermediacdn.com/2022-08/tt.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com" alt="rick and morty" />
             <form className={style.formulario}>
-                <div className={style.logoLogin}>
-                <img className={style.imgLogo} src="https://hbomax-images.warnermediacdn.com/2022-08/tt.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com" alt="rick and morty" />
-                </div>
                 <label className={style.nameInput}>Email</label>
                 <input type="text" placeholder="Correo Electronico" value={userData.email}  name="email" onChange={handleChange} className={style.input} autoComplete="off"/>
                 <p className={style.error}>{errors.email}</p>
